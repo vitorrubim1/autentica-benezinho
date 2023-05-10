@@ -18,7 +18,7 @@ import java.util.Random;
 public class Main {
     public static void main(String[] args) {
 
-        EntityManagerFactory factory = Persistence.createEntityManagerFactory("maria-db");
+        EntityManagerFactory factory = Persistence.createEntityManagerFactory("oracle");
         EntityManager manager = factory.createEntityManager();
 
         var bene = new PessoaFisica();
@@ -92,10 +92,10 @@ public class Main {
         } catch (Exception e) {
             JOptionPane.showMessageDialog(null,
                     """
-                            Erro na persistência! 
-                                        
+                            Erro na persistência!
+
                             Confira se todas as classes estão anotadas corretamente!
-                                        
+
                             veja detalhes no console..."""
 
             );

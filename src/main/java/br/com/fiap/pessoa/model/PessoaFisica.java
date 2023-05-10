@@ -9,6 +9,8 @@ public class PessoaFisica extends Pessoa {
     private String CPF;
     private Sexo sexo;
     private Set<PessoaFisica> filhos = new LinkedHashSet<>(); //Os meus filhos
+
+
     public PessoaFisica() {
     }
     public PessoaFisica(Long id, String nome, LocalDate nascimento, String CPF, Sexo sexo, Set<PessoaFisica> filhos) {
