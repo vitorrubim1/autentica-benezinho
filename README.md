@@ -49,7 +49,7 @@ Na sprint atual, você foi incumbido de fazer:
 # O que deverá ser feito?
 
 
-**Importe o projeto do github :**
+**Faça o Fork do projeto no github do professor :**
 
 https://github.com/Benefrancis/autentica-benezinho.git
 
@@ -91,7 +91,6 @@ Caso o github esteja indisponível, você deverá pegar o projeto no diretório 
       1. Pessoa Física;
       2. Pessoa Jurídica.
 
-
 1. **(1 Pontos)** adicionar corretamente as anotações JPA na classe **PessoaFisica**.
 
     Lembre-se que:
@@ -116,7 +115,6 @@ Caso o github esteja indisponível, você deverá pegar o projeto no diretório 
 1. **(0,5 Ponto)** criar um método capaz de consultar um **Usuario** pelo seu identificador na correspondente tabela no banco de dados;
 
 1. **(0,5 Ponto)** criar um método capaz de consultar todos os **Usuarios** na correspondente tabela no banco de dados;
-
 
 
 
