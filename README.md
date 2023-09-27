@@ -1,13 +1,13 @@
 # Autentica Benezinho 🤓👍🏾
 
-Checkpoint II - Enterprise Application Development aplicada em 10/05/2023.
+SIMULADO - Enterprise Application Development aplicado em 27/09/2023.
 
 
 | ![](documentacao/fiap.jpg)               | **Enterprise Application Development** |
 |------------------------------------------|----------------------------------------|
-| **ALUNO:**                               | **TURMA:** 2TDSPI  - 2TDSPJ            |
+| **ALUNO:**                               | **TURMA:** 2TDSPR  - 2TDSPT            |
 | **PROFESSOR:** Benefrancis do Nascimento | 10/05/2023                             |
-| **CHECK POINT II**                       | **VALE 10 PONTOS**                     |
+| **SIMULADO**                       | **VALE 1 PONTO**                     |
 
 # Sumário
 
@@ -137,6 +137,6 @@ Para acessar digite no prompt:
 git clone https://github.com/Benefrancis/autentica-benezinho.git && cd autentica-benezinho && git checkout correcao
 ```
 
-A prova é individual, em caso de fraude de qualquer tipo todos os envolvidos receberão nota ZERO.
+A atividade é individual, em caso de fraude de qualquer tipo todos os envolvidos receberão nota ZERO.
 
 Boa prova.
