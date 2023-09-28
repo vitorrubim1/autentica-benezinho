@@ -13,6 +13,7 @@ import jakarta.persistence.Persistence;
 
 import javax.swing.*;
 import java.time.LocalDate;
+import java.util.List;
 import java.util.Random;
 
 public class Main {
@@ -25,6 +26,7 @@ public class Main {
 
         bene.setCPF(geraCpf())
                 .setSexo(Sexo.MASCULINO)
+                .addFilho(null)
                 .setNome("Benefrancis do Nascimento")
                 .setNascimento(LocalDate.of(1977, 3, 8));
 
@@ -87,6 +89,8 @@ public class Main {
 
 
             //Métodos para consultar aqui:
+            listaUsuarioPeloId(manager);
+            listaTodosUsuarios(manager);
 
 
         } catch (Exception e) {
@@ -106,6 +110,18 @@ public class Main {
             System.out.println(benefrancis);
         }
 
+    }
+
+    private static User listaUsuarioPeloId(EntityManager manager) {
+        String id_usuario = JOptionPane.showInputDialog("Informe o id do usuário que deseja visualizar:");
+        User user = manager.find(User.class, id_usuario);
+        JOptionPane.showMessageDialog(null, user.toString());
+        return user;
+    }
+
+    private static List<User> listaTodosUsuarios(EntityManager manager) {
+        String jpql = "FROM User";
+        return manager.createQuery(jpql).getResultList();
     }
 
     private static String geraCpf() {
